@@ -1,0 +1,69 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Project url,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Labels,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Compass),Custom field (Development),Custom field (Epic Color),Custom field (Epic Link),Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Rank),Custom field (Request Type),Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Total forms),Custom field ([CHART] Date of First Response),Status Category
+View product per page functionality behavior,DVG-6,10005,Bug,To Do,DVG,Dvagodemo,software,Noreen Perveez,639cc7632aac389d02c2c292,,,Lowest,,,,Noreen Perveez,639cc7632aac389d02c2c292,Noreen Perveez,639cc7632aac389d02c2c292,20/Dec/22 11:05 PM,21/Dec/22 7:40 PM,21/Dec/22 7:38 PM,,,0,Baby-care,"_On Baby Care page, When user Unintentionally or intentionally goes in inspection, some feature like “show product per page” is missing, when user expand the size of window of it visible. Means that its shows the behavior of mobile phones._
+
+*Steps to produce:*
+
+# Go to Baby care Page
+# Right Click on the screen.
+# Select Inspection.
+
+*Expected Result:* User should be have same functionality after clicking inspection. All features should be shown.
+
+*Actual Result:* ""Show product per page"" feature is missing in chrome (in inspection)",,Noreen Perveez,639cc7632aac389d02c2c292,,,,,,,,,21/Dec/22 7:40 PM;639cc7632aac389d02c2c292;b5 and b6.PNG;https://team-16712189108970.atlassian.net/secure/attachment/10011/b5+and+b6.PNG,,,,,,,,,,,,,,,,,0|i00013:,,,,,,,,,,,To Do
+Same behavior of site when user goes in inspection. ,DVG-5,10004,Bug,To Do,DVG,Dvagodemo,software,Noreen Perveez,639cc7632aac389d02c2c292,,,Lowest,,,,Noreen Perveez,639cc7632aac389d02c2c292,Noreen Perveez,639cc7632aac389d02c2c292,20/Dec/22 11:01 PM,21/Dec/22 7:40 PM,21/Dec/22 7:38 PM,,,0,Baby-care,"_On Baby Care page, When user Unintentionally or intentionally goes in inspection, some feature like “show product per page” is missing, when user expand the size of window of it visible. Means that its shows the behavior of mobile phones._
+
+*Steps to produce:*
+
+# Go to Baby care Page
+# Right Click on the screen.
+# Select Inspection.
+
+*Expected Result:* User should be have same behavior after clicking inspection.
+
+*Actual Result:* User isn't have same behavior after clicking inspection. It shows the responsiveness like cell phones. although user isn't selecting ""Toggle device toolbar"". Filters, Sort by, View feature is change.",Chrome,Noreen Perveez,639cc7632aac389d02c2c292,,,,,,,,,21/Dec/22 7:40 PM;639cc7632aac389d02c2c292;b5 and b6.PNG;https://team-16712189108970.atlassian.net/secure/attachment/10010/b5+and+b6.PNG,,,,,,,,,,,,,,,,,0|i0000v:,,,,,,,,,,,To Do
+Info of store appear in Checkout,DVG-4,10003,Bug,To Do,DVG,Dvagodemo,software,Noreen Perveez,639cc7632aac389d02c2c292,,,Medium,,,,Noreen Perveez,639cc7632aac389d02c2c292,Noreen Perveez,639cc7632aac389d02c2c292,20/Dec/22 12:04 AM,21/Dec/22 7:39 PM,21/Dec/22 7:38 PM,,,0,Cart,"_On Cart page, When user choose store, timings and day for pickup but the info of store is not shown in checkout apge._
+
+*Steps to produce:*
+
+# Go to Cart Page
+# Move towards map. Select store.
+# Select day and time,
+# Click on “Checkout”
+
+*Expected Result:* Info of store should be appeared in Checkout page.
+
+*Actual Result:* Info of store is not appeared in Checkout page.",Chrome,Noreen Perveez,639cc7632aac389d02c2c292,,,,,,,,,21/Dec/22 7:39 PM;639cc7632aac389d02c2c292;b4.PNG;https://team-16712189108970.atlassian.net/secure/attachment/10009/b4.PNG,,,,,,,,,,,,,,,,,0|i0000n:,,,,,,,,,,,To Do
+Pagination functionality below the map,DVG-3,10002,Bug,To Do,DVG,Dvagodemo,software,Noreen Perveez,639cc7632aac389d02c2c292,,,Medium,,,,Noreen Perveez,639cc7632aac389d02c2c292,Noreen Perveez,639cc7632aac389d02c2c292,18/Dec/22 9:59 PM,21/Dec/22 7:39 PM,21/Dec/22 7:39 PM,,,0,Cart,"_On Cart page, When user wants to access the pagination feature below the map, it doesn’t work._
+
+*Steps to produce:*
+
+# Go to Cart Page
+# Move towards map.
+# Click on pagination. 
+# Select any page.
+
+*Expected Result:* Redirection of pagination should be occur.
+
+*Actual Result:* Redirection of pagination is not occur.",Chrome,Noreen Perveez,639cc7632aac389d02c2c292,,,,,,,,,21/Dec/22 7:39 PM;639cc7632aac389d02c2c292;b3.jpeg;https://team-16712189108970.atlassian.net/secure/attachment/10008/b3.jpeg,,,,,,,,,,,,,,,,,0|i0000f:,,,,,,,,,,,To Do
+GPS Icon functionality,DVG-2,10001,Bug,To Do,DVG,Dvagodemo,software,Noreen Perveez,639cc7632aac389d02c2c292,,,Medium,,,,Noreen Perveez,639cc7632aac389d02c2c292,Noreen Perveez,639cc7632aac389d02c2c292,18/Dec/22 9:40 PM,21/Dec/22 7:38 PM,21/Dec/22 7:38 PM,,,0,Cart,"_On Cart page, When user is able to tap on GPS icon, it is not accessible._
+
+*Steps to produce:*
+
+# Go to Cart Page
+# Move towards Postal code tab.
+# Click on GPS icon on postal code tab.
+
+*Expected Result:* User should be able to find his location.
+
+*Actual Result:* 1.User is not able to find his location. 2. Error message is generated that ",Chrome,Noreen Perveez,639cc7632aac389d02c2c292,,,,,,,,,21/Dec/22 7:38 PM;639cc7632aac389d02c2c292;b2.PNG;https://team-16712189108970.atlassian.net/secure/attachment/10007/b2.PNG,,,,,,,,,,,,,,,,,0|i00007:,,,,,,,,,,,To Do
+Postal code tab Functionality,DVG-1,10000,Bug,To Do,DVG,Dvagodemo,software,Noreen Perveez,639cc7632aac389d02c2c292,,,Highest,,,,Noreen Perveez,639cc7632aac389d02c2c292,Noreen Perveez,639cc7632aac389d02c2c292,17/Dec/22 12:48 AM,21/Dec/22 7:34 PM,21/Dec/22 7:38 PM,,,0,Cart,"_On Cart page, When user is able to write postal code here, after writing, this dialog box is appeared. that shows that “This page can’t load Google map correctly._
+
+*Steps to produce:*
+
+# Go to Cart Page
+# Click on Postal code tab.
+# Write postal code.
+
+*Expected Result:* User should be able to find his location.
+
+*Actual Result:* 1.User is not able to find his location. 2. Error message is generated that ""This page can't load Google Maps correctly. Do you own this website?"".",Chrome,Noreen Perveez,639cc7632aac389d02c2c292,,,,,,,,,21/Dec/22 7:34 PM;639cc7632aac389d02c2c292;b1.PNG;https://team-16712189108970.atlassian.net/secure/attachment/10006/b1.PNG,,,,,,,,,,,,,,,,,0|hzzzzz:,,,,,,,,,,,To Do

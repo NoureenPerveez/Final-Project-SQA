@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "6b28b48e-e082-4ac5-86e3-c81baf999ae0",
+		"name": "edenrobe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25020772"
+	},
+	"item": [
+		{
+			"name": "login-post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\"query\":\"mutation($email_1:String!,$password_1:String!,$guest_quote_id_1:String){generateCustomerToken(email:$email_1,password:$password_1,guest_quote_id:$guest_quote_id_1){token}}\",\r\n\"variables\":{\"email_1\":\"mshoaiba04@gmail.com\",\"password_1\":\"Noureen12\",\"guest_quote_id_1\":null}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://edenrobe.com/graphql",
+					"protocol": "https",
+					"host": [
+						"edenrobe",
+						"com"
+					],
+					"path": [
+						"graphql"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sku-stitch",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "k30s0ios1ovmghzzyin6d0pq3a8j1its",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edenrobe.com/graphql?hash=1911516485&sku_1=%22EWTKP22-69170%22&filter_1={%22sku%22:{%22eq%22:%22EWTKP22-69170%22},%22customer_group_id%22:{%22eq%22:1}}&_currency=%22%22",
+					"protocol": "https",
+					"host": [
+						"edenrobe",
+						"com"
+					],
+					"path": [
+						"graphql"
+					],
+					"query": [
+						{
+							"key": "hash",
+							"value": "1911516485"
+						},
+						{
+							"key": "sku_1",
+							"value": "%22EWTKP22-69170%22"
+						},
+						{
+							"key": "filter_1",
+							"value": "{%22sku%22:{%22eq%22:%22EWTKP22-69170%22},%22customer_group_id%22:{%22eq%22:1}}"
+						},
+						{
+							"key": "_currency",
+							"value": "%22%22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sku-unstitch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edenrobe.com/graphql?hash=2832062463&identifiers_1=[%22product-return-policy%22]&_currency=%22%22",
+					"protocol": "https",
+					"host": [
+						"edenrobe",
+						"com"
+					],
+					"path": [
+						"graphql"
+					],
+					"query": [
+						{
+							"key": "hash",
+							"value": "2832062463"
+						},
+						{
+							"key": "identifiers_1",
+							"value": "[%22product-return-policy%22]"
+						},
+						{
+							"key": "_currency",
+							"value": "%22%22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sku-unstitch-2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edenrobe.com/graphql?_currency=%22%22&hash=3506082994&url_1=%22product/ewu22v8-25004-unstitched-magenta-embroidered-cottel-3-piece%22",
+					"protocol": "https",
+					"host": [
+						"edenrobe",
+						"com"
+					],
+					"path": [
+						"graphql"
+					],
+					"query": [
+						{
+							"key": "_currency",
+							"value": "%22%22"
+						},
+						{
+							"key": "hash",
+							"value": "3506082994"
+						},
+						{
+							"key": "url_1",
+							"value": "%22product/ewu22v8-25004-unstitched-magenta-embroidered-cottel-3-piece%22"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
